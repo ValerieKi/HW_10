@@ -1,0 +1,34 @@
+    1  git clone https://github.com/ValerieKi/HW_10.git
+    2  cd HW_10
+    3  touch text_ignore.txt
+    4  text_ignore.txt
+    5  git status
+    6  git add .
+    7  git commit -m "Updated .gitignore and added ignored file"
+    8  git config user.name "ValerieKi"
+    9  git config user.email "lkim49471@gmail.com"
+   10  git commit -m "Updated .gitignore and added ignored file"
+   11  touch main_test.txt
+   12  git add .
+   13  git commit -m "Added main_test.txt"
+   14  git checkout -b develop
+   15  touch develop_test.txt
+   16  git add .
+   17  git commit -m "Added develop_test.txt"
+   18  echo "just a small change" >> develop_test.txt
+   19  git status
+   20  git branch develop
+   21  git checkout -b develop
+   22  touch develop_test.txt
+   23  git add .
+   24  git commit -m
+   25  git commit -m  "Створено порожній файл develop_test.txt"
+   26  echo "just a small change" >> develop_test.txt
+   27  git status
+   28  git add .
+   29  echo "just a small change" >> develop_test.txt
+   30  git log --oneline
+   31  git checkout main
+   32  git merge develop
+   33  git log
+   34  history > command_list.csv
