@@ -5,3 +5,5 @@ git add .,Индексация изменений
 git commit -m '...',Фиксация изменений
 git remote add origin ...,Привязка удалённого репозитория
 git push origin develop,Отправка изменений в ветку develop
+git clone https://github.com/
+ValerieKi/HW_10.git,Клонування репозиторію
